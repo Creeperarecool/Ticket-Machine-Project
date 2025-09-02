@@ -33,13 +33,13 @@ c)game
 */
 public void increaseScore(int points)
 {
-    score += points;
+    score = score + points;
 }
 32. Yes
 33. 
 public void discount(int amount)
 {
-    price -= amount;
+    price = price - amount;
 }
 34.
 public void setAge (int currentAge)
@@ -52,3 +52,9 @@ public void isLiving(boolean isAlive)
     alive = isAlive;
 }
 36. It makes the price = 0 no matter what you set it to.
+37. My cat has green eyes.
+39. #pricecents.
+40. # price cents.
+42. They show different outputs. This is because they're printing different prices.
+43. It does print out the same output as before. I think the %d is telling where to put the parameter and the %n is staying that the string is ending.
+44. Now when you make a ticket-machine object it no longer asks for a cost.
