@@ -40,6 +40,11 @@ class TicketMachine
     {
         return price;
     }
+    
+    public int getTotal()
+    {
+        return total;
+    }
 
     /**
      * Return the amount of money already inserted for the

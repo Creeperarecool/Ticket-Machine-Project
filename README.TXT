@@ -21,3 +21,7 @@ c)game
 16. Yes, the semicolon is like the period at the end of a sentence
 18. The Student class
 19. 2 parameters, string and double
+23. The difference between the two is they're both returning different parameters.
+24. How much money you've put in.
+25. No, the return statment is returning a parameter, therefore the name must stay the same as the parameter
+27. "Missing return statment"
