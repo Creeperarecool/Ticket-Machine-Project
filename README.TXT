@@ -25,3 +25,30 @@ c)game
 24. How much money you've put in.
 25. No, the return statment is returning a parameter, therefore the name must stay the same as the parameter
 27. "Missing return statment"
+28. getPrice has "int" before it while printTicket has void. Also printTicket does not have a return statment while getPrice does.
+29. No, this is because they're setters and not getters.
+31.
+/**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+    score += points;
+}
+32. Yes
+33. 
+public void discount(int amount)
+{
+    price -= amount;
+}
+34.
+public void setAge (int currentAge)
+{
+    age = currentAge;
+}
+35.
+public void isLiving(boolean isAlive)
+{
+    alive = isAlive;
+}
+36. It makes the price = 0 no matter what you set it to.
